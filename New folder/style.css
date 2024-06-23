@@ -1,0 +1,229 @@
+@font-face{
+    font-family: myfont;
+    src: url('fonts/Phenomena-Regular.otf')
+}
+@font-face{
+    font-family: mybold font;
+    font-weight: bold;
+    src: url('./fonts/Phenomena-ExtraBold.otf')
+}
+@font-face{
+    font-family: myfont weight;
+    font-weight: 200;
+    src: url('./fonts/Phenomena-ExtraBold.otf')
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo-bar{
+    height: 48px;
+    background-color: #01582F;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-bar .left-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 50px;
+}
+
+.logo-bar .right-side{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+.background-pic{
+    background-image: url('img/bg\ pic.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-color: #01582F;
+    height: 800px;
+    padding-top: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 10px solid #333333;
+}
+
+.nav-bar{
+    height: 59px;
+    background-color: #01582F;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar .left-side img{
+    width: 120px;
+    height: 29px;
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+.nav-bar .right-side{
+    margin-left: 40px;    
+}
+
+.nav-bar .right-side ul li{
+    display: inline;
+}
+
+.nav-bar .right-side ul li a{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 13px 10px;
+    transition: 0.3s;
+}
+
+.nav-bar .right-side ul li a:hover{
+    color: #f19a0e;
+    border-bottom: 1px solid #f19a0e;
+}
+
+.sub-navbar{
+    height: 70px;
+    background-color: #01582F;
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.sub-navbar h1{
+    font-family: myfont;
+    color: white;
+    font-size:  30px;
+    margin-left: 25px;
+    line-height: 1;
+}
+
+.sub-navbar  span{
+    color: #f19a0d;
+}
+
+.main-contant{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 410px;
+}
+
+.main-contant img{
+    width: 80px;
+    height: 80px;
+}
+
+.main-contant .menu{
+    margin-top: 10px;
+}
+
+.main-contant .menu ul li {
+    margin-top: 30px;
+}
+
+.main-contant .menu .ops-2{
+    padding: 10px 75px;
+}
+
+.main-contant .menu a{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background-color: #01582F;
+    border-radius: 50px;
+    padding: 12px 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.section-1{
+    height: 470px;
+    background-image: url('img/bg\ pic\ 2.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-1 .contain{
+    padding-left: 430px;
+}
+
+.section-1 .contain h2{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: mybold font;
+    font-weight: bold;
+}
+
+.section-1 .contain p{
+    font-size: 28px;
+    text-align: center;
+    color: #E68F00;
+    font-family: myfont weight;
+    line-height: 1.5;
+}
+
+.section-1 .contain span{
+    color: #fff;
+}
+
+.section-1 .pic img{
+    width: 300px;
+    height: 400px;
+    margin-top: 70px;
+}
+
+.section-2{
+    height: 412px;
+    background-color: #E68F00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2 .box{
+    width: 360px;
+    height: 443px;
+    margin: 10px 10px 60px 10px;
+    background-color: transparent;
+    background-position: center;
+    background-size: cover;
+}
+
+.section-3{
+    height: 558px;
+    background-image: url('img/section\ 3\ pic1.PNG');
+    background-repeat: no-repeat;
+}
+
+.section-4{
+    height: 70px;
+    background-image: url('img/section\ 3\ pic2.PNG');
+    background-repeat: no-repeat;
+}
